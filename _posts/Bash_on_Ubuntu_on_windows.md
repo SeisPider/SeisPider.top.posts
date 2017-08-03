@@ -5,6 +5,8 @@ tags: [Bash on Ubuntu on windows,Zsh]
 category: 技术分享
 toc: true
 ---
+本文旨在介绍Bash Oon Ubuntu on windows 上 oh-my-zsh的安装。
+
 # Bash 安装
 
 安装该bash目前需windows操作系统OS build 晚于14393.0，

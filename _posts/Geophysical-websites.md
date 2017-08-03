@@ -5,6 +5,8 @@ category: 地球物理学资源
 tags: [Websites,Geophysics]
 toc: True
 ---
+
+本文旨在搜集博主用到与见到的地震学数据提供网站
 # 定位数据网站
 
 ## PDE

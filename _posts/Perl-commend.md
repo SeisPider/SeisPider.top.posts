@@ -2,7 +2,7 @@
 title: Perl_command
 date: 2016-11-05 17:06:07
 tags: [Perl]
-category: 程序语言 
+category: 程序语言
 toc: true
 ---
 # Perl 常用正则表达实例

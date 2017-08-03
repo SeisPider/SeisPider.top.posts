@@ -7,11 +7,6 @@ toc: true
 comments: true
 mathjax: true
 ---
-{% blockquote 刘向，战国策 %}
-日中则移，月满则亏，物盛则衰。
-{% endblockquote %}
-
-# 主旨描述
 本文旨在介绍弱各向异性介质或[VTI](http://sepwww.stanford.edu/data/media/public/docs/sep92/sergey4/paper_html/node2.html)介质及一般均匀介质的各向速度计算方法。
 
 # 原理描述

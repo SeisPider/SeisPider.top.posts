@@ -7,11 +7,8 @@ toc: true
 comments: true
 mathjax: true
 ---
-{% blockquote 黄大受，中国通史 %}
-即知即行，即心即物，即动即静，即体即用
-{% endblockquote %}
-# 主旨描述
-本文旨在总结地震学中可能用到的地震学软件
+
+本文旨在总结地震学中可能用到的地震学软件。
 
 # 综合数据处理软件
 **[ObsPy](https://docs.obspy.org/master/tutorial/)** 可方便用于处理多种数据格式的文件，方便地与SciPy, NumPy等模块交互处理。

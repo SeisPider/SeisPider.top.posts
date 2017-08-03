@@ -6,10 +6,6 @@ tags: [Hexo,MathJax,Tex]
 comments: true
 toc: true
 ---
-{% blockquote 刘向，战国策 %}
-诗云："行百里者半于九十，此言末路之难也。"
-{% endblockquote %}
-# 问题描述
 我们常常需要在博客中使用数学公式，而原生的hexo是不支持数学公式的输入的。故，我们安装插件[hexo-math](https://www.npmjs.com/package/hexo-math)以使用MathJax或Katex对数学公式进行渲染。
 
 # 安装过程

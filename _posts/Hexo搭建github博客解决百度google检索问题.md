@@ -6,13 +6,8 @@ tags: [Hexo,Baidu,Google]
 comments: true
 toc: true
 ---
-{% blockquote 庄子，逍遥游 %}
-风之积也不厚，则其负大翼也无力，故九万里则风斯在下矣。而后乃今培风，背负青天而莫之夭阙者，而后乃今将图南。
-{% endblockquote %}
 
-# 问题描述
-
-本文旨在解决Hexo与github搭建的博客加入Google、Baidu的问题，不会提供从最原始的搭建博客的方法（若你想从头开始搭建，请参考**[@【传送门】](http://tengj.top/2016/02/20/hexo%E5%B9%B2%E8%B4%A7%E7%B3%BB%E5%88%97%EF%BC%9A%EF%BC%88%E6%80%BB%E7%BA%B2%EF%BC%89%E6%90%AD%E5%BB%BA%E7%8B%AC%E7%AB%8B%E5%8D%9A%E5%AE%A2%E5%88%9D%E8%A1%B7/)**）。由于Github屏蔽了百度爬虫抓取Github的网页内容，github上搭建的独立博客无法加入百度检索。
+本文旨在解决Hexo与github搭建的博客加入Google、Baidu的问题，不会提供从最原始的搭建博客的方法（若你想从头开始搭建，请参考**[@【传送门】](http://tengj.top/2016/02/20/hexoTotal/)**）。由于Github屏蔽了百度爬虫抓取Github的网页内容，github上搭建的独立博客无法加入百度检索。
 
 # Sitemap提交方法
 

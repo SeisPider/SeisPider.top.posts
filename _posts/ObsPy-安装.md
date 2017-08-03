@@ -6,11 +6,6 @@ tags: [ObsPy,Anaconda,CentOS]
 toc: ture
 comments: true
 ---
-{% blockquote 孔子，论语 %}
-子贡问为仁。子曰：“工欲善其事，必先利其器”。居是邦也，事其大夫之贤者，友其士之仁者。
-{% endblockquote %}
-
-# 问题描述
 本文旨在利用Anaconda,Pyenv安装ObsPy。
 
 # ObsPy安装
@@ -34,6 +29,7 @@ $ conda install obspy
 **`Tips`**：
 * Anaconda安装仅需要以你所用的`shell`执行安装脚本即可，最后需要用户确认是否将Anaconda加入环境变量，默认的是加入至.bashrc中。若用户使用的是zsh则需要选择`No`并在.zshrc末尾加上`export PATH="$HOME/anaconda2/bin:$PATH"`anaconda2为用户安装路径。其他版本shell同理
 * 安装Anaconda过程中出现任何问题请参考[`Troubleshooting`](http://conda.pydata.org/docs/troubleshooting.html)
+* 安装Anaconda3后无法通过`conda`安装`Obspy`的用户，请直接使用`pip install obspy`安装。
 
 # 版本升级
 {% codeblock %}
