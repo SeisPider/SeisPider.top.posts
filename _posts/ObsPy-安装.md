@@ -6,11 +6,10 @@ tags: [ObsPy,Anaconda,CentOS]
 toc: ture
 comments: true
 ---
-本文旨在利用Anaconda,Pyenv安装ObsPy。
+
+本文旨在利用Anaconda 安装ObsPy。
 
 # ObsPy安装
-Pyenv 是一款Python多版本管理工具。它利用Python解释器基于site的特点，将多版本Python分别安装在不同文件夹下，从而实现多版本Python管理。其提供了一系列命令对Python运行环境进行管理。本人笔记本运行环境为CentOS 7 并安装[Pyenv](http://seisman.info/python-pyenv.html)管理多版本Python。
-
 Anaconda是一个专供科研使用的Python发行包，其中集合了所有重要的Python科学计算模块及其相关依赖。Anaconda是**独立于现有系统**进行安装的。因此，用户无需担心安装破坏当前的Python环境。
 
 **Anaconda的安装并不要求用户具备管理员权限**
@@ -29,7 +28,7 @@ $ conda install obspy
 **`Tips`**：
 * Anaconda安装仅需要以你所用的`shell`执行安装脚本即可，最后需要用户确认是否将Anaconda加入环境变量，默认的是加入至.bashrc中。若用户使用的是zsh则需要选择`No`并在.zshrc末尾加上`export PATH="$HOME/anaconda2/bin:$PATH"`anaconda2为用户安装路径。其他版本shell同理
 * 安装Anaconda过程中出现任何问题请参考[`Troubleshooting`](http://conda.pydata.org/docs/troubleshooting.html)
-* 安装Anaconda3后无法通过`conda`安装`Obspy`的用户，请直接使用`pip install obspy`安装。
+* 安装Anaconda 3 后无法通过`conda`安装`Obspy`的用户，请直接使用`pip install obspy`安装。
 
 # 版本升级
 {% codeblock %}
